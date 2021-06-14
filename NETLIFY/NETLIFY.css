@@ -1,0 +1,476 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+header{
+    width: 100%;
+    height: 1cm;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1cm;
+    font-size: 20px;
+}
+header ul{
+    display: flex;
+}
+header ul li{
+    margin: 0px 20px;
+    background: white;
+}
+
+header ul li a i{
+    margin-right: 15px;
+    font-size: 0.7cm;
+
+}
+
+.wrapper1{
+    width: 100%;
+    height: 400px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 1cm;
+}
+
+.wrapper1 .left{
+    width: 40%;
+    background: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  
+}
+.wrapper1 .left h1{
+    font-size: 1.7cm;
+}
+.wrapper1 .left form button{
+    color: white;
+    background: blue;
+    font-weight: bolder;
+    height: 0.8cm;
+    margin-top: 0.5cm;
+    margin-right: 0.5cm;
+}
+.wrapper1 .left form a{
+    font-size: 25px;
+}
+
+.bottom{
+    width: 100%;
+    height: 6cm;
+    background: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.bottom ul{
+    display: flex;
+    margin-top: 1cm;
+}
+.bottom ul li i{
+    font-size: 2cm;
+    margin: 0 1cm;
+}
+
+
+.wrapper2{
+    width: 100%;
+    height: 474px;
+    background: rgb(5, 5, 172);
+    display: flex;
+    justify-content: center;
+}
+.wrapper2 .box1{
+    width: 60%;
+    background: rgb(2, 2, 129);
+    text-align: center;
+    font-size: 0.8cm;
+    padding-top: 2cm;
+    color: white;
+}
+.wrapper2 .box1 button{
+    width:3.5cm;
+    height: 1.2cm;
+    font-size: 0.5cm;
+    font-weight: bolder;
+    background: rgb(0, 255, 221);
+    color: rgb(57, 25, 197);
+    border-radius: 10px;
+    margin-top: 1cm;
+}
+
+.wrapper3{
+    width: 70%;
+    height: 300px;
+    background: white;
+    display: flex;
+    margin-left: 6cm;
+    text-align: center;
+    font-size: 0.7cm;
+
+}
+.wrapper3 .p2{
+    margin-top: 1cm;
+    font-size: 0.5cm;
+}
+
+
+.wrapper4{
+    width: 100%;
+    background: hwite;
+    height: 710px;
+}
+.wrapper4 .box1{
+    height: 250px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}  
+.wrapper4 .box1 h1{
+    font-size: 1.5cm;
+    margin: 1cm 0;
+}
+
+.wrapper4 .box2{
+    width: 100%;
+    background: white;
+    display: flex;
+    margin-left: 4cm;
+}
+.wrapper4 .box2 .blog1, .blog3{
+    width: 12cm;
+    background: rgb(255, 255, 255);
+    font-size: 0.7cm;
+    text-align: center;
+}
+.wrapper4 .box2 .blog1 p,.blog3 p {
+    font-size: 0.5cm;
+    display: flex;
+    justify-content: center;    
+}
+.wrapper4 .box2 .blog1 p i,.blog3 p i{
+    font-size: 1cm;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 10px;
+    background: rgb(12, 178, 219);
+    color: white;
+}
+.wrapper4 .box2 .blog1 .loc1 i,.loc2 i{
+  font-size: 2cm;
+}
+.wrapper4 .box2 .blog1 .loc2, .blog3 .loc1 i{
+    font-size: 2cm;
+    margin-top: 1cm;
+    
+}
+.wrapper4 .box2 .blog1 .loc1{
+  font-size: 0.5cm;
+  margin-top: 1cm;
+
+}
+.wrapper4 .box2 .blog1 .loc1,.blog3 .loc1{
+    margin-right: 5cm;
+}
+.wrapper4 .box2 .blog1 .loc2,.blog3 .loc2{
+    margin-left: 5cm;
+    font-size: 0.5cm;
+}
+
+.wrapper5{
+    width: 100%;
+    height: auto;
+    margin-top: 1cm;
+    text-align: center;
+
+}
+.wrapper5 .blogs{
+    width: 95%;
+    height: 200px;
+    background: WHITE;
+    display: flex;
+   margin-left: 2cm;
+}
+.wrapper5 .blogs .blog1, .blog2, .blog3{
+    line-height: 1cm;
+    font-size: 0.6cm;
+}
+.wrapper5 .blogs .blog1 ul{
+    display: flex;
+}
+.wrapper5 .blogs .blog1 ul li{
+    margin: 10px 50px;
+}
+.wrapper5 .blogs .blog1 ul li a i{
+    font-size: 1.5cm;
+}
+
+.wrapper5 .blogs .blog2 .p1{
+    width: 10cm;
+    height: 1cm;
+    background: rgb(218, 218, 203);
+    padding-left: 50PX;
+}
+.wrapper5 .blogs .blog3{
+    background: white;
+}
+.wrapper5 .blogs .blog3 .p2{
+    width: 10cm;
+    height: 1cm;
+    background: rgb(8, 0, 128);
+    color: white;
+}
+.wrapper5 form button,a {
+ font-size: 0.7cm;
+ 
+}
+.wrapper5 form button{
+    background: blue ;
+    color: white;
+}
+
+.wrapper6{
+    margin-top: 2cm;
+    margin-bottom: 2cm;
+    width: 70%;
+    height: 540px;
+    background: white;
+    text-align: center;
+    margin-left: 5cm;
+    font-size: 0.8cm;
+    
+}
+.wrapper6 button{
+    width: 9cm;
+    height: 1.5cm;
+    font-size:0.7cm;
+    background: blue ;
+    color: white;
+}
+
+.wrapper7{
+    width: 100%;
+    height:800px;
+    background: white;
+    text-align: center;
+}
+.wrapper7 h1{
+    font-size: 1.5cm;
+}
+.wrapper7 .blogs{
+    width: 100%;
+    height: 200px;
+    font-size: 0.5cm;
+    background: white;
+    justify-content: space-around;
+    display: flex
+}
+.wrapper7 .blogs .blog1 p{
+    font-size: 0.7cm;
+    margin-bottom: 0.5cm;
+    border-right: 1px solid ;
+
+}
+
+.wrapper8{
+    width: 100%;
+    height: 700px;
+    background: white;
+    display: flex;
+    margin-top: 5cm;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper8 ul li{
+    list-style-type: square;
+}
+.wrapper8 .box{
+    text-align: center;
+    background: white;
+
+    margin-bottom: 1cm;
+}
+.wrapper8 .box h1{
+    font-size: 1.5cm;
+    width: 20cm;
+    
+}
+.wrapper8 .blogs{
+    display: flex;
+}
+.wrapper8 .blogs .text{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.7cm;
+    width: 50%;
+}
+.wrapper8 .blogs .right img{
+    width: 17cm;
+    height: 12cm;
+}
+
+.wrapper9{
+    height: 5   00px;
+    display: flex;
+    justify-content: center;
+ 
+   
+}
+.wrapper9 .left{
+    width: 15cm;
+    margin-right: 2cm;
+}
+.wrapper9 .right h2{
+    width: 15cm;
+    font-size:1cm;
+}
+
+.wrapper9 .right p{
+    font-size: 0.7cm;
+    margin: 1cm 0;
+}
+.wrapper9 .right ul{
+    width: 10cm;
+    height: 4cm;
+
+ 
+}
+.wrapper9 .right ul li{
+    list-style-type: square;
+    font-size: 30px;
+}
+
+.wrapper10{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2cm;
+}
+.wrapper10 .left{
+    width: 40%;
+    height: 8.8cm;
+    font-size: 0.6cm;
+    line-height: 1cm;
+}
+.wrapper10 .right{
+    width: 15cm;
+    height: 20cm;
+}
+
+.wrapper11{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2cm;
+
+}
+.wrapper11 .right{
+    width: 40%;
+    height: 8.8cm;
+    font-size: 0.6cm;
+    line-height: 1cm;
+}
+.wrapper11.left{
+    width: 15cm;
+    height: 20cm;
+}
+
+.wrapper12{
+    width: 70%;
+    height: 300px;
+    background: rgb(231, 226, 226);
+    display: flex;
+    margin-left: 6cm;
+    text-align: center;
+    font-size: 0.7cm;
+}
+.wrapper12 .p2{
+    margin-top: 1cm;
+    font-size: 0.5cm;
+}
+.wrapper12 .right u{
+    width: 5cm;
+    height: 1cm;
+    background: rgb(9, 150, 168);
+    color: white;
+}
+.wrapper12 .right {
+    padding-top: 2cm;
+}
+
+.wrapper13{
+    width: 100%;
+    height: 300px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 2;
+}
+.wrapper13 h1{
+    font-size:1.5cm;
+}
+
+.wrapper13 button{
+        width: 9cm;
+        height: 1.5cm;
+        font-size:0.7cm;
+        background: blue ;
+        color: white;
+        border-radius: 10px;
+}
+
+
+
+
+footer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 2cm;
+    border-top: 1px solid #000;
+}
+footer ul{
+    display: flex;
+}
+
+footer ul li{
+    margin-right: 30px;
+
+}
+footer ul li a i{
+    color: red;
+}
+footer ul li a{
+    color: black;
+}
+
+footer .footer{
+    background: rgb(226, 223, 223);
+}
+
